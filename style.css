@@ -1,5 +1,5 @@
 body {
-	height: 2202px;
+	height: 2200px;
 	width: 1920px; 
 }
 header {
@@ -14,6 +14,9 @@ header {
 	background: white;
 	margin-left: 200px; 
 	border-radius: 0px 0px 10px 10px;
+	transform: rotate(-10deg);
+	margin-top: -30px;
+	padding-top: 10px;
 
 }
 .header-logo img {
@@ -21,6 +24,8 @@ header {
 	height: 80px;
 	padding-top: 20px;
 	padding-left: 10px;
+	transform: rotate(5deg);
+
 }
 .header-text {
 	margin-top: 225px;
@@ -61,14 +66,102 @@ main {
 	background-repeat: no-repeat;
 
 }
+.third {
+	padding-top: 560px;
+	padding-left: 770px;
+	font-family: 'Poor Story', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    transform: rotate(10deg);
+    position: absolute;
+}
+.circle {
+	width: 190px;
+	height: 190px;
+	background-color: rgba(45, 45, 45, 0.5);
+	border-radius: 180px;
+	position: absolute;
+	margin-top: 373px;
+	margin-left: 448px;
+
+}
+.triangle {
+    border: 30px solid transparent;
+    border-left: 43px solid white;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.img5 {
+	padding-top: 520px;
+	padding-left: 550px;
+	position: absolute;
+}
 
 .right {
 	width: 40%; 
 	background-color: white;
     float: right;
-	
-
 }
+.cover-text {
+	font-size: 42px;
+	padding-top: 30px;
+	/*font-family: 'Fira Sans', sans-serif;*/
+    font-family: 'Quattrocento', serif;
+    font-family: 'Nunito', sans-serif;
+}
+ul {
+	font-size: 22px;
+	font-family: 'Fira Sans', sans-serif;
+    font-family: 'Quattrocento', serif;
+    line-height: 35px;
+}
+.heart {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  transform: rotate(-45deg);
+  margin-bottom: -988px;
+  margin-right: 330px;
+}
+.heart::after {
+  /*position: absolute;*/
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  left: 5px;
+}
+.heart::before {
+  /*position: fixed;*/
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -5px;
+  left: 0px;
+}
+.plus {
+	font-size: 22px;
+}
+.cover-input {
+	padding-left: 30px;
+}
+
 footer {
 	clear: both;
 	background: #273d50;
